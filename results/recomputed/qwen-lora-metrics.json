@@ -1,0 +1,21 @@
+{
+  "valid_json_rate": 0.968384074941452,
+  "exact_match_rate": 0.2611241217798595,
+  "entity_micro_precision": 0.8038585209003215,
+  "entity_micro_recall": 0.6326825741142444,
+  "entity_micro_f1": 0.7080720210398542,
+  "entity_example_precision": 0.7840052414408387,
+  "entity_example_recall": 0.7052391175049253,
+  "entity_example_f1": 0.7289282851035592,
+  "relation_micro_precision": 0.4547945205479452,
+  "relation_micro_recall": 0.3145925457991156,
+  "relation_micro_f1": 0.37191934279312927,
+  "relation_example_precision": 0.47603434816549567,
+  "relation_example_recall": 0.4210124412407785,
+  "relation_example_f1": 0.4344632808987403,
+  "final_micro_f1_equal_weighted": 0.5399956819164917,
+  "final_example_f1_equal_weighted": 0.5816957830011498,
+  "final_micro_f1_relation_weighted": 0.5063804140918193,
+  "final_example_f1_relation_weighted": 0.552249282580668,
+  "partial_entity_recall": 0.7892657336158507
+}

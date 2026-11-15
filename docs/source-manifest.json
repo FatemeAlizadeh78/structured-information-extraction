@@ -1,0 +1,124 @@
+{
+  "reviewed_on": "2026-11-15",
+  "notebook_cells": 398,
+  "source_notebook_sha256": "9665caf094d026c579a237ce57aefeb07802d2282f57ed6ba418d98a8c24e13f",
+  "archive_members": [
+    {
+      "archive": "NLP_25_26-20261115T210339Z-1-001.zip",
+      "file_count": 36,
+      "uncompressed_bytes": 2090291067
+    },
+    {
+      "archive": "NLP_25_26-20261115T210339Z-1-002.zip",
+      "file_count": 39,
+      "uncompressed_bytes": 1889117257
+    },
+    {
+      "archive": "NLP_25_26-20261115T210339Z-1-003.zip",
+      "file_count": 1,
+      "uncompressed_bytes": 284478539
+    }
+  ],
+  "included_artifacts": [
+    {
+      "path": "docs/project-report.pdf",
+      "bytes": 86666,
+      "sha256": "e46ba0d451ecc34cf0416d40a8a127b9b673c31b11bcbfb349047974069ff163"
+    },
+    {
+      "path": "results/recorded/qwen2_5_1_5b_few_shot_test_metrics.csv",
+      "bytes": 889,
+      "sha256": "3dc8aa275435a6e65efd5ce57d3d3e51da2f34d68318e8e82455bc13407317f7"
+    },
+    {
+      "path": "results/recorded/gemma_2_2b_few_shot_test_metrics.csv",
+      "bytes": 855,
+      "sha256": "c2e6d3567bd404615ece8c48904e635e082cc6a1807d2a7100a5c2b6804503c8"
+    },
+    {
+      "path": "results/recorded/qwen2_5_1_5b_zero_shot_test_metrics.csv",
+      "bytes": 890,
+      "sha256": "cfbcaaa188f135a2d417b93d8aab8806a50847792fbee3d950709f0f2c9e004f"
+    },
+    {
+      "path": "results/recorded/flan_t5_base_few_shot_direct_json_test_metrics.csv",
+      "bytes": 663,
+      "sha256": "ecb8d3454539d588cf682a44de74553c78aade373727708c0c8a91d616a200e7"
+    },
+    {
+      "path": "results/recorded/partial_finetuned_flan_t5_base_test_200_metrics.csv",
+      "bytes": 610,
+      "sha256": "d6e6e20260396321a04f215d2e730634f6017cc815e38ef5f1b12e8c0cf5d455"
+    },
+    {
+      "path": "results/recorded/few_10shot_flan_t5_test_metrics.csv",
+      "bytes": 653,
+      "sha256": "d3ddd79072585b94324b393ec4862ce9c6593f72caf65acc7d5a5da1e1a9dc42"
+    },
+    {
+      "path": "results/recorded/flan_t5_base_zero_shot_test_metrics.csv",
+      "bytes": 848,
+      "sha256": "9a623ebbd45871b0d58a55db4b635f0281dd8260d15b354b019b7c21c9745d0e"
+    },
+    {
+      "path": "results/recorded/llama_3_2_1b_lora_train3000_full_test_metrics.csv",
+      "bytes": 871,
+      "sha256": "c3dfe6c81ec653786d2a45962aee0f47dfee40b2dfb5a0679757f776cf74c494"
+    },
+    {
+      "path": "results/recorded/upper_bound_gold_entities_scibert_marked_relations_test_metrics.csv",
+      "bytes": 774,
+      "sha256": "7ba695d137a30de36160b914a71bd981c3bce4a413eb1bb4397814524476753d"
+    },
+    {
+      "path": "results/recorded/llama_3_2_1b_zero_shot_test_metrics.csv",
+      "bytes": 819,
+      "sha256": "beba4d258982192721eb3b4ef4499f5851214f418714a00f9093655b33251fa4"
+    },
+    {
+      "path": "results/recorded/split_task_gemma_entities_scibert_relations_test_metrics.csv",
+      "bytes": 869,
+      "sha256": "27031138a5c97f4c7b15f68e773a27f8d3a04b6b34c0bc212ec639d26c19c5f0"
+    },
+    {
+      "path": "results/recorded/gemma_2_2b_zero_shot_test_metrics.csv",
+      "bytes": 861,
+      "sha256": "3adbbb25b4f282b26702fcef3e601d8cbc8a3d3726e42cf1a8edfb525de3ff58"
+    },
+    {
+      "path": "results/recorded/comparison_results.csv",
+      "bytes": 7178,
+      "sha256": "3e35da9a3b19d5797ab71a8580a0c0a88946ee63d5e47f062ca7aae1c32c9e35"
+    },
+    {
+      "path": "results/recorded/llama_3_2_1b_few_shot_test_metrics.csv",
+      "bytes": 853,
+      "sha256": "bfbc86cea548f41be8a0c0a0225655f2c77c02b929dfa9524118398893dd1527"
+    },
+    {
+      "path": "results/recorded/qwen2_5_1_5b_lora_train3000_full_test_metrics.csv",
+      "bytes": 871,
+      "sha256": "f9a8c13ff2da701d0ecb08df440fdf2a7642b5084992ed04998927b6f4da3f86"
+    },
+    {
+      "path": "results/recorded/split_task_gemma_entities_scibert_relations_test_ood_metrics.csv",
+      "bytes": 874,
+      "sha256": "ba8598c61031cacf80b734e5964e9efce9472f19e67d10a1c6a1234863b2649f"
+    },
+    {
+      "path": "results/recorded/gemma_2_2b_lora_train5000_full_test_metrics.csv",
+      "bytes": 863,
+      "sha256": "ab644f9d6865345b08da97eb50a9d1d9bc49677f91656ed68bd9b37bb255200c"
+    },
+    {
+      "path": "results/recorded/comparison_results_clean.csv",
+      "bytes": 7638,
+      "sha256": "413ace9f26b073c5166ad90984b1913af2d35f0d0488a461fbe864b92be431ce"
+    },
+    {
+      "path": "notebooks/original_experiments.ipynb",
+      "bytes": 279512,
+      "sha256": "8fc2f5a28d1a49d0774b7beba86ad2ff12a7bdbfff80c478e31e7845a9e91c98"
+    }
+  ]
+}
