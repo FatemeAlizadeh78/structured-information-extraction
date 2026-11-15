@@ -1,0 +1,15 @@
+{
+  "task": "lora",
+  "model": "google/gemma-2-2b-it",
+  "train": "data/processed/train.jsonl",
+  "dev": "data/processed/dev.jsonl",
+  "output": "models/gemma-lora",
+  "seed": 42,
+  "train_size": 5000,
+  "dev_size": 713,
+  "max_length": 768,
+  "rank": 8,
+  "alpha": 16,
+  "epochs": 2,
+  "learning_rate": 0.0002
+}

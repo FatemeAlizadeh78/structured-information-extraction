@@ -1,0 +1,10 @@
+{
+  "task": "relations",
+  "model": "allenai/scibert_scivocab_uncased",
+  "train": "data/processed/train.jsonl",
+  "dev": "data/processed/dev.jsonl",
+  "output": "models/scibert-relations",
+  "seed": 42,
+  "epochs": 4,
+  "learning_rate": 0.00002
+}

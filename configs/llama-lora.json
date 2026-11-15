@@ -1,0 +1,15 @@
+{
+  "task": "lora",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "train": "data/processed/train.jsonl",
+  "dev": "data/processed/dev.jsonl",
+  "output": "models/llama-lora",
+  "seed": 42,
+  "train_size": 3000,
+  "dev_size": 300,
+  "max_length": 1024,
+  "rank": 16,
+  "alpha": 32,
+  "epochs": 2,
+  "learning_rate": 0.0002
+}
