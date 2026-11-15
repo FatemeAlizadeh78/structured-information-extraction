@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scier-structured-extraction"
+version = "0.1.0"
+description = "Scientific entity and relation extraction with LLMs and a split-task Gemma-SciBERT pipeline"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2,<3", "tqdm>=4.65,<5"]
+
+[project.optional-dependencies]
+models = ["torch>=2.4,<3", "transformers==4.51.3", "accelerate==1.6.0", "peft==0.15.2", "datasets==3.5.1", "scikit-learn>=1.3,<2", "sentencepiece>=0.2,<0.3"]
+cuda = ["bitsandbytes>=0.46.1,<0.47"]
+notebooks = ["jupyterlab>=4,<5", "matplotlib>=3.7,<4", "seaborn>=0.13,<0.14"]
+
+[project.scripts]
+scier = "scier_extraction.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
